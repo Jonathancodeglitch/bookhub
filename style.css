@@ -92,7 +92,7 @@ header{
 .links li.active::after{
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: #ffff;
     left: 0px;
@@ -102,10 +102,59 @@ header{
 .links li:hover::after{
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: #ffff;
     left: 0px;
     bottom: 0px;
+}
+
+/* hero section */
+
+.hero{
+  padding:100px 0px;
+}
+
+.hero .left{
+    width:40%;
+}
+
+.primary-hero-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bolder;
+    line-height:1.1;
+}
+
+.secondary-hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+.hero_btn{
+    margin-top: 13px;
+    display: inline-block;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    padding:8px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .30s ease-in-out;
+}
+
+.hero_btn:hover{
+    scale:.90;
+}
+
+.hero .right{
+    width: 50%;
+}
+
+.hero .right img{
+    height: 300px;
+    width: 100%;
 }
 
