@@ -178,6 +178,7 @@ header{
     text-align: center;
     max-width: 210px;
     width: 100%;
+    cursor: pointer;
 }
 
 .hot-stuff + .hot-stuff{
@@ -193,7 +194,7 @@ header{
   transition: all .30s ease-in-out;
 }
 
-.hot-stuff_img:hover{
+.hot-stuff:hover .hot-stuff_img{
     scale: 1.1;
     rotate:5deg;
 }
