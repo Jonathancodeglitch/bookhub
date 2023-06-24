@@ -7,7 +7,7 @@
 }
 
 body{
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 a{
@@ -210,4 +210,27 @@ header{
 .hot-stuff .hotstuff_content .narration{
     font-size:18px;
     color: #1f2937;
+}
+
+.qoute-container{
+    padding: 100px 0px;
+    background-color: #e5e7eb;
+}
+
+.quote-content{
+    width: 50%;
+}
+
+.quote{
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quoter{
+    text-align: right;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size:24px;
 }
