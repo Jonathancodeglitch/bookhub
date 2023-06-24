@@ -1,1 +1,1 @@
-# bookhub
+# A simple Landing Page.
